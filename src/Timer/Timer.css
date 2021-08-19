@@ -1,24 +1,24 @@
-.button-container{
-    cursor: pointer;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    width: 10%;
-    border-radius: 5px;
-    background-color: #8b0000;
-    border: none;
-    display: inline-block;
-    margin: 10px;
-}
 .button-value{
     color: #fff;
     font-weight: bold;
 }
 .time{
-    font-size: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+.timer-card{
+    top: 0%;
+    box-shadow: 0 0 4px #efefef;
+    background-color: #011835bb !important;
+
+}
+.heading{
+    color: #011835;
+    font-size: 50px;
     font-weight: bold;
 }
-.button-container:hover{
-    background-color: red;
-
+.para{
+    color: #011a36fa;
+    font-weight: 400;
 }
