@@ -58,13 +58,13 @@ function Timer() {
     return (
         <div className="container">
             <div className="row ">
-                <div className="col text-center">
+                <div className="col-12 text-center">
                     <img src={Logo} width="20%" alt="logo"/>
                 </div>
             </div>
 
-            <div className="row ">
-                <div className="col-6 col-md-6 col-sm-12">
+            <div className="row">
+                <div className="col-sm-6 ">
                     <div className="timer-desc card border-0 bg-transparent">
                     <div className="card-body">
                     <h1 className="heading animate__animated animate__bounceIn">Timer App</h1><br/>
@@ -73,7 +73,7 @@ function Timer() {
                     </div>
                     </div>
                 </div>
-                <div className="col-6 col-md-6 col-sm-12">
+                <div className=" col-sm-6">
                     <div className="timer-card card  text-center animate__animated animate__fadeIn animate__delay-1s 1s">
                         <div className="card-body">
                             <div className="time-display">
